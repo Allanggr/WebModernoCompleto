@@ -14,7 +14,7 @@
         
         const divs = document.getElementsByTagName('div')
         Array.from(divs).forEach(e => e.classList.remove('destaque'))
-
+        console.log(divs)
         const divsArray = [...divs]
         divsArray.forEach(e => e.classList.add('destaque'))
 
