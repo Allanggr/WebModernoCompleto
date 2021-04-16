@@ -14,8 +14,8 @@
             <button @click="contador -= 2">-2</button>
         </p>
         <p @mousemove="atualizarPosicao">
-            Coordenadas: {{ x }} e {{ y }}
-            <span @mousemove.stop>Aqui Não</span>
+            Coordenadas: {{x}} e {{y}}
+            <span @mousemove.stop>Aqui Não!</span>
         </p>
         <input type="text" @keyup.enter="alerta">
     </div>
@@ -23,9 +23,9 @@
         new Vue({
             el: "#app",
             data: {
-                contador: 0,
                 x: 0,
-                y: 0
+                y: 0,
+                contador: 0
             },
             methods: {
                 add(){
@@ -36,7 +36,7 @@
                     this.y = e.clientY
                 },
                 alerta(){
-                    alert('Enter!')
+                    alert("Enter!")
                 }
             }
         })

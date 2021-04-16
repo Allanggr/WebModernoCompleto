@@ -8,17 +8,17 @@
 </head>
 <body class="exercicio">
     <div id="app">
-        <p>1) {{ 2 + 2 }}</p>
+        <p>1) {{ 2 + 2}}</p>
         <p>2) {{ "teste".toUpperCase() }}</p>
-        <p>3) Produto: {{ nome }}, R$ {{ preco }}, {{ desconto * 100 }}%</p>
-        <p>4) Hora Certa: {{ horaCerta() }}</p>
-        <p>5) Preço com Desconto: {{ precoComDesconto }}</p>
+        <p>3) Produto: {{ nome }}, Real R$ {{ preco }}, {{ desconto * 100}}%</p>
+        <p>4) Hora certa: {{ horaCerta() }}</p>
+        <p>5) Preço com desconto: R$ {{ precoComDesconto }}</p>
     </div>
     <script>
         new Vue({
             el: "#app",
             data: {
-                nome: 'Caneta',
+                nome: "Caneta",
                 preco: 6.89,
                 desconto: 0.15
             },

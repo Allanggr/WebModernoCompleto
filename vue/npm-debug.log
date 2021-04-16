@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/allan/.nvm/versions/node/v6.17.1/bin/node',
+1 verbose cli   '/home/allan/.nvm/versions/node/v6.17.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'qrcode/' ]
+2 info using npm@3.10.10
+3 info using node@v6.17.1
+4 verbose stack Error: missing script: qrcode/
+4 verbose stack     at run (/home/allan/.nvm/versions/node/v6.17.1/lib/node_modules/npm/lib/run-script.js:151:19)
+4 verbose stack     at /home/allan/.nvm/versions/node/v6.17.1/lib/node_modules/npm/lib/run-script.js:61:5
+4 verbose stack     at /home/allan/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (/home/allan/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+4 verbose stack     at final (/home/allan/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+4 verbose stack     at then (/home/allan/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at ReadFileContext.<anonymous> (/home/allan/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:295:20)
+4 verbose stack     at ReadFileContext.callback (/home/allan/.nvm/versions/node/v6.17.1/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:367:13)
+5 verbose cwd /home/allan/Desktop/WebModernoCompleto/vue
+6 error Linux 5.4.0-58-generic
+7 error argv "/home/allan/.nvm/versions/node/v6.17.1/bin/node" "/home/allan/.nvm/versions/node/v6.17.1/bin/npm" "run" "qrcode/"
+8 error node v6.17.1
+9 error npm  v3.10.10
+10 error missing script: qrcode/
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
